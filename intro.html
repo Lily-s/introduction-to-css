@@ -4,16 +4,37 @@
     <meta charset="UTF-8" />
     <title>CSS try me</title>
     <style>
-        .borderItems {
-          border: 5px outset rgb(171, 153, 216);
-          background-color: rgb(168, 201, 212);    
-          text-align: left;
-        }
-        </style>
+      .borderItems {
+        border: 5px outset rgb(171, 153, 216);
+        background-color: rgb(168, 201, 212);
+        text-align: left;
+      }
+      .page-title {
+        border-width: 5px;
+        border-style: dotted;
+        border-color: rgb(8, 8, 8);
+
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 40;
+        padding-left: 40px;
+
+        margin-top: 30px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+    
+      }
+
+      p {
+        border: 5px outset rgb(209, 216, 153);
+        background-color: rgb(168, 201, 212);
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>The best css page</h1>
+      <h1 class="page-title">The best css page</h1>
       <h2>Smaller letters than h1</h2>
       <nav>
         <ul>
@@ -30,41 +51,42 @@
     </header>
     <main>
       <section>
-        
         <article>
-            <h3>Main section about my page</h3>
-          <h4>Very usefull information.</h4> 
-          <p><strong>Laser engraving</strong> is a cutting-edge
-          manufacturing technique that employs a concentrated beam of laser
-          light to etch designs, logos, and text onto various materials,
-          including wood, glass, acrylic, metal, and leather. This process
-          allows for high precision and intricate detailing, making it ideal for
-          applications ranging from personalized gifts to industrial product
-          markings. </p>The laser removes material in a controlled manner, creating
-          a permanent mark that is resistant to wear and fading. As a versatile
+          <h3>Main section about my page</h3>
+          <h4>Very usefull information.</h4>
+          <p>
+            <strong>Laser engraving</strong> is a cutting-edge manufacturing
+            technique that employs a concentrated beam of laser light to etch
+            designs, logos, and text onto various materials, including wood,
+            glass, acrylic, metal, and leather. This process allows for high
+            precision and intricate detailing, making it ideal for applications
+            ranging from personalized gifts to industrial product markings.
+          </p>
+          The laser removes material in a controlled manner, creating a
+          permanent mark that is resistant to wear and fading. As a versatile
           and efficient method, laser engraving is increasingly favored in both
           small-scale crafts and large-scale manufacturing, providing businesses
           with the ability to customize their products effortlessly.
-          <cite>by Artificial Intelligence</cite>
+          This text was created by<cite> Artificial Intelligence</cite>
         </article>
       </section>
       <div class="borderItems">
-      <section>
-        <h3>Another section with list</h3>
-        <ol>
-          Item1
-        </ol>
-        <ol>
-          Item2
-        </ol>
-        <ol>
-          Item3
-        </ol>
-        <ol>
-          Item4
-        </ol>
-      </section>
-    </div>
+        <section>
+          <h3>Another section with list</h3>
+          <ol>
+            Item1
+          </ol>
+          <ol>
+            Item2
+          </ol>
+          <ol>
+            Item3
+          </ol>
+          <ol>
+            Item4
+          </ol>
+        </section>
+      </div>
       <aside><!-- position of my webpage in the future--></aside>
     </main>
     <footer>LazeeLilyCraft Corporation © 2024</footer>
