@@ -23,6 +23,9 @@ body {
     margin-left: 40px;
 
   }
+  .links li {
+    display: block;
+  }
 
   p {
     border: 5px outset rgb(209, 216, 153);
