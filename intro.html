@@ -29,8 +29,36 @@
       p {
         border: 5px outset rgb(209, 216, 153);
         background-color: rgb(168, 201, 212);
+        background: linear-gradient(#f69d3c, #3f87a6);
       }
-    </style>
+      article{
+    border: 4 solid hsl(84, 44%, 71%);
+    
+    padding: 40px 20px;/* values top/bottom, left/right.*/
+    margin: 30px 20px 10px;/* values top, left/right. bottom*/
+
+  }
+
+  .rectangle {
+    border: 1px solid black;
+    background: linear-gradient(#e66465, #9198e5);
+    height: 120px;
+    width: 120px;
+  }
+
+  .rectangle2 {
+    border: 1px solid black;
+    background: linear-gradient(#000000, #ffffff);
+    height: 50px;
+    width: 50px;
+  }
+.laser{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    margin-left: 20px;
+    
+}
+</style>
   </head>
   <body>
     <header>
@@ -51,11 +79,11 @@
     </header>
     <main>
       <section>
-        <article>
+        <article class="article">
           <h3>Main section about my page</h3>
           <h4>Very usefull information.</h4>
           <p>
-            <strong>Laser engraving</strong> is a cutting-edge manufacturing
+            <strong class="laser">Laser engraving</strong> is a cutting-edge manufacturing
             technique that employs a concentrated beam of laser light to etch
             designs, logos, and text onto various materials, including wood,
             glass, acrylic, metal, and leather. This process allows for high
@@ -89,6 +117,14 @@
       </div>
       <aside><!-- position of my webpage in the future--></aside>
     </main>
-    <footer>LazeeLilyCraft Corporation © 2024</footer>
+    <footer><p>LazeeLilyCraft Corporation © 2024</p>
+    <div class="rectangle">
+        <div class="rectangle2">
+
+        </div>
+     
+    </div>
+    
+    </footer>
   </body>
 </html>

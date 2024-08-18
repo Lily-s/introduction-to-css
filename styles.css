@@ -24,3 +24,9 @@
     border: 5px outset rgb(209, 216, 153);
     background-color: rgb(168, 201, 212);
   }
+  .article{
+    border: 4 solid hsl(84, 44%, 71%);
+    padding: 40px 20px;
+    margin: 30px 10px;
+
+  }
