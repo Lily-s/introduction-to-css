@@ -50,6 +50,20 @@ background: linear-gradient(#000000, #ffffff);
 height: 50px;
 width: 50px;
 }
+
+.rectangle3 {
+  border: 1px solid black;
+  background: linear-gradient(#000000, #ffffff);
+  height: 50px;
+  width: 50px;
+  }
+  .rectangle4 {
+    border: 1px solid black;
+    background: linear-gradient(#000000, #ffffff);
+    height: 50px;
+    width: 50px;
+    }
+    
 .laser{
 background-color: rgb(255, 255, 255);
 border: 2px solid black;
