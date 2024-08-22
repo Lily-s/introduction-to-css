@@ -7,7 +7,7 @@ body {
   background-color: rgb(198, 232, 176);
 }
 
-h2{
+h2 {
   font-size: 25px;
 }
 .borderItems {
@@ -88,11 +88,10 @@ article {
   display: none;
 }
 [name] {
-  border:none;
+  border: none;
   outline: none;
 }
 
-#name::placeholder{
+#name::placeholder {
   border: 2px solid blue;
 }
-
