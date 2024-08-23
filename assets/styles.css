@@ -1,8 +1,14 @@
 * {
   margin-block-start: 0;
   margin-block-end: 0;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
 }
 
+#mainPage {
+  background-color: rgb(69, 162, 202);
+  margin: 20px;
+}
 body {
   background-color: rgb(198, 232, 176);
 }
@@ -15,7 +21,7 @@ h2 {
   background-color: rgb(168, 201, 212);
   text-align: left;
 }
-.page-title {
+.pageTitle {
   border-width: 5px;
   border-style: dotted;
   border-color: rgb(8, 8, 8);
@@ -29,6 +35,10 @@ h2 {
   margin-right: 20px;
   margin-bottom: 30px;
   margin-left: 40px;
+}
+.paragraph {
+  margin: 10px;
+  color: #1a14c1;
 }
 .links li {
   display: block;
@@ -84,7 +94,7 @@ article {
   margin-left: 20px;
 }
 
-#my_city {
+#myCity {
   display: none;
 }
 [name] {
