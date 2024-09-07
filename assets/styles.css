@@ -4,7 +4,10 @@
   margin-bottom: 10px;
   font-family: "Times New Roman", Times, serif;
 }
-
+.resize-image {
+  width: 266px; 
+  height: 200px; 
+}
 
 #mainPage {
   background-color: rgb(69, 162, 202);
