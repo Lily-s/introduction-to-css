@@ -1,11 +1,33 @@
-
-
 $primary-colour: rgb(242, 161, 161);
 $font-colour: rgb(157, 154, 154);
-
 
 #mainPage {
   background-color: $primary-colour;
 }
-
-
+.card_card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+}
+.card__image {
+  border-radius: 8px;
+}
+.card__title {
+  font-size: 1.5rem;
+  margin-top: 12px;
+}
+.card__description {
+  font-size: 1rem;
+  margin-top: 8px;
+}
+.card__button {
+  margin-top: 12px;
+}
+.card--featured {
+  border-color: #007bff;
+}
+.card__button--primary {
+  background-color: #007bff;
+  color: white;
+}

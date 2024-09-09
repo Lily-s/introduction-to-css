@@ -4,48 +4,18 @@
     <meta charset="UTF-8" />
     <title>CSS try me</title>
 
-    <link rel="stylesheet" href="./assets/styles.css" />
-    <link rel="stylesheet" href="./assets/intro.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <style>
-      .card {
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        padding: 16px;
-        max-width: 300px;
-      }
-      .card__image {
-        width: 100%;
-        border-radius: 8px;
-      }
-      .card__title {
-        font-size: 1.5rem;
-        margin-top: 12px;
-      }
-      .card__description {
-        font-size: 1rem;
-        margin-top: 8px;
-      }
-      .card__button {
-        margin-top: 12px;
-      }
-      .card--featured {
-        border-color: #007bff;
-      }
-      .card__button--primary {
-        background-color: #007bff;
-        color: white;
-      }
-    </style>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/intro.css" />
   </head>
   <body>
     <header>
-      <h1 class="pageTitle">The best css page</h1>
+      <h1 class="page-title">The best css page</h1>
       <h2>Smaller letters than h1</h2>
       <nav>
         <ul class="links">
@@ -59,25 +29,43 @@
       </nav>
       <div class="container">
         <div class="row">
-      <div class="card card--featured ms-4">
-        <img src="/assets/images/jablonec.jpg" alt="Card image" class="card__image resize-image">
-        <h2 class="card__title">Jablonec nad Nisou</h2>
-        <p class="card__description">This is a description of the card.</p>
-        <button class="card__button card__button--primary">Learn More</button>
-      </div>
-      <div class="card card--featured ms-4">
-        <img src="/assets/images/liberec.jpg" alt="Card image" class="card__image resize-image">
-        <h2 class="card__title">Liberec</h2>
-        <p class="card__description">This is a description of the card.</p>
-        <button class="card__button card__button--primary">Learn More</button>
-      </div>
-      <div class="card card--featured ms-4">
-        <img src="/assets/images/bedrichov.jpg" alt="Card image" class="card__image resize-image">
-        <h2 class="card__title">Bedřichov</h2>
-        <p class="card__description">This is a description of the card.</p>
-        <button class="card__button card__button--primary">Learn More</button>
-      </div>
-      </div>
+          <div class="card card--featured ms-4 card_card">
+            <img
+              src="/assets/images/jablonec.jpg"
+              alt="Card image"
+              class="resize-image card__image"
+            />
+            <h2 class="card__title">Jablonec nad Nisou</h2>
+            <p class="card__description">This is a description of the card.</p>
+            <button class="card__button card__button--primary">
+              Learn More
+            </button>
+          </div>
+          <div class="card card--featured ms-4 card_card">
+            <img
+              src="/assets/images/liberec.jpg"
+              alt="Card image"
+              class="card__image resize-image"
+            />
+            <h2 class="card__title">Liberec</h2>
+            <p class="card__description">This is a description of the card.</p>
+            <button class="card__button card__button--primary">
+              Learn More
+            </button>
+          </div>
+          <div class="card_card card card--featured ms-4">
+            <img
+              src="/assets/images/bedrichov.jpg"
+              alt="Card image"
+              class="card__image resize-image"
+            />
+            <h2 class="card__title">Bedřichov</h2>
+            <p class="card__description">This is a description of the card.</p>
+            <button class="card__button card__button--primary">
+              Learn More
+            </button>
+          </div>
+        </div>
       </div>
     </header>
     <main id="mainPage">
@@ -85,10 +73,19 @@
         <article class="article">
           <h3>Main section about my page</h3>
           <div class="fs-4 mb-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
-            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
-          </svg>
-          Very usefull information.
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-bell"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"
+              />
+            </svg>
+            Very usefull information.
           </div>
           <p class="paragraph">
             <strong class="laser">Laser engraving</strong> is a cutting-edge
@@ -107,7 +104,8 @@
             both small-scale crafts and large-scale manufacturing, providing
             businesses with the ability to customize their products
             effortlessly. This text was created by<cite>
-              Artificial Intelligence</cite>
+              Artificial Intelligence</cite
+            >
           </p>
 
           <p class="lead">
@@ -118,20 +116,14 @@
           </p>
         </article>
       </section>
-      <div class="borderItems">
+      <div class="border-items-material">
         <section>
           <h3>Another section with list</h3>
           <ol>
-            Item1
-          </ol>
-          <ol>
-            Item2
-          </ol>
-          <ol>
-            Item3
-          </ol>
-          <ol>
-            Item4
+            <li>Glass</li>
+            <li>Wood</li>
+            <li>Steel</li>
+            <li>Ceramic</li>
           </ol>
         </section>
       </div>

@@ -5,8 +5,8 @@
   font-family: "Times New Roman", Times, serif;
 }
 .resize-image {
-  width: 266px; 
-  height: 200px; 
+  width: 266px;
+  height: 200px;
 }
 
 #mainPage {
@@ -20,12 +20,12 @@ body {
 h2 {
   font-size: 25px;
 }
-.borderItems {
-  border: 5px outset rgb(171, 153, 216);
-  background-color: rgb(168, 201, 212);
+.border-items-material {
+  border: 5px outset rgb(216, 168, 153);
+  background-color: rgb(57, 107, 126);
   text-align: left;
 }
-.pageTitle {
+.page-title {
   border-width: 5px;
   border-style: dotted;
   border-color: rgb(8, 8, 8);
